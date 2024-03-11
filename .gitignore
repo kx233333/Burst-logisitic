@@ -1,0 +1,4 @@
+build
+src/dummy
+result
+runtest/*.py
