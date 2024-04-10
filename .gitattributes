@@ -1,0 +1,2 @@
+/dataset/wechat_uniform_1.dat filter=lfs diff=lfs merge=lfs -text
+D:/suwakow/Huawei/Burst/burst/netsketch_test/dataset/wechat_uniform_1.dat filter=lfs diff=lfs merge=lfs -text
