@@ -301,7 +301,7 @@ class BurstDetector // BurstSketch
 			for(uint32_t i = last_timestamp; i < timestamp; i++)
 			{
 				screen_layer.update();
-				log.update(i);
+				log.update(i); 
 			}
 			last_timestamp = timestamp;
 		}
