@@ -20,7 +20,7 @@ These data are used for jitter tests.
 
 ### Cited Dataset
 
-These data are not original to us; rather, they were obtained through application processes, hence, we are unable to open-source them. Here, we merely acknowledge the data providers and release the code we employed for data processing.
+These data are not original to us; rather, they were obtained through application processes, hence, we are unable to open-source them. Here, we merely acknowledge the data providers and release the code we employed for data processing, which is ```src/util/read_dataset.cpp```.
 
 #### Internet Dataset
 
@@ -38,4 +38,4 @@ We picked the first package with 10,065,284 traces for the Abnormal Latencies te
 
 Obtained from [Detecting outliers in a univariate time series dataset using unsupervised combined statistical methods: A case study on surface water temperature. *Ecological Informatics*](https://github.com/AtmosferaUSM/mukahead_ML_water-temperature_outlier_detection/tree/main/data)
 
-We multiplied and divided the data since the original data is small.
+We multiplied and divided the data since the original data is small. This dataset is ued for the Temperature Bursts tests.
