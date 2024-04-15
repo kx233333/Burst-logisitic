@@ -54,6 +54,8 @@ target_link_libraries(chk_lfu PUBLIC dataset)
 target_link_libraries(chk_lfu PUBLIC hash)
 
 add_executable(runtest runtest/runtest.cpp)
+add_executable(logitest Logistic/runtest.cpp)
+
 
 add_executable(run_timewidth_test src/run_timewidth_test.cpp src/sketch/other_test/param.cpp)
 target_link_libraries(run_timewidth_test PUBLIC hash)
@@ -72,3 +74,8 @@ target_link_libraries(run_temp PUBLIC hash)
 add_executable(run_jitter_test src/run_jitter_test.cpp)
 target_link_libraries(run_jitter_test PUBLIC dataset)
 target_link_libraries(run_jitter_test PUBLIC hash)
+
+add_executable(data_generate Logistic/data_generate.cpp)
+target_link_libraries(data_generate PUBLIC dataset)
+target_link_libraries(data_generate PUBLIC hash)
+target_link_libraries(data_generate PUBLIC param)
